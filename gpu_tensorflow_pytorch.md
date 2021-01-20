@@ -2,6 +2,8 @@
 
 This tutorial goes over how to do tensorflow:
 
+(Need to add how to create tensorflow_env)
+
 ```bash
 module load miniconda3
 ```
