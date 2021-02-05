@@ -28,7 +28,7 @@ nvcc matmat.cu -o matmul
     - **Image:** A package with all the dependencies and information needed to create a container. An image includes all the dependencies, deployment, and execution configurations to be used by a container. An image is immutable once it has been created.
     - **Container:** An instance of a Docker image. A container represents the execution of a single application, process, or service and consists of the contents of a Docker image, an execution environment, and a standard set of instructions.
 - Installing Docker and using with Spack (a tutorial):
-    1) install docker
+    1) Install Docker
     2) `docker pull centos:7` 
         - may need docker login
         - use centos7 because it is what is the basis of all CARC clusters
@@ -52,7 +52,7 @@ nvcc matmat.cu -o matmul
         - this will list available spack compilers
     10) `spack install <package name>`
         - time to start installing packages! e.g. `mpileaks`
-    11) in a new terminal: `docker ps`
+    11) In a new terminal: `docker ps`
         - this lists information related to the running Docker processes
     12) `docker commit <container id>  <name>`
         - this will save the container you are working on as an image
