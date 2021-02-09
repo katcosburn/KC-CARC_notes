@@ -10,7 +10,7 @@ module load miniconda3
 ```bash
 conda create -n tfpt_combo_env python=3.7
 ```
-3. Load this environment:
+3. Load this environment (N.B. on your local machine, instead of `source` use `conda`):
 ```bash
 source activate tfpt_combo_env
 ```
@@ -32,9 +32,4 @@ conda install keras-gpu
 7. Also might want to install a few other useful things:
 ```bash
 conda install numpy pandas matplotlib scikit-learn ipykernel mpi4py
-```
-
-### Appendix A: running interactive jobs with GPU usage in SLURM
-```bash
-srun --gres=gpu:1 --pty bash
 ```
