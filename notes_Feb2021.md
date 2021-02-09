@@ -1,5 +1,9 @@
 # Notes for February 2021
 
+- To run and interactive job with GPU usage in SLURM:
+```bash
+srun --gres=gpu:1 --pty bash
+```
 - To look at GPU usage you can use Ganglia or either of these commands from the terminal:
 ```
 nvidia-smi
