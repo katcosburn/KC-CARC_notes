@@ -16,5 +16,4 @@ also recommended that you use `conda install ipykernel` so that you can run your
 
 ## Multiple-GPU Processes ##
 
-On Xena, there are 4 dualGPU nodes available and this tutorial will cover the use of one node with 2 GPUs to run a neural network code. The documentation for how to
-do this, in generl, can be found [here](https://keras.io/guides/distributed_training/).
+On Xena, there are 4 dualGPU nodes available and this tutorial will cover the use of one node with 2 GPUs to run a neural network code. This tutorial will use documentation for how to do single-host, multi-device synchronous training with the Keras library [here](https://keras.io/guides/distributed_training/).
